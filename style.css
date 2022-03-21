@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    font-size:17px;
+}
+.navbar-nav >li{
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.img-Background{
+    background-image: url("https://images.unsplash.com/photo-1616173758552-d6d8905cf655?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+    background-position: center;
+    background-size: cover;
+}
+.shadow-texto{
+    text-shadow:0px 4px 0px #000;
+}
+
+.padding{
+   padding-top: 200px;
+   padding-bottom:200px;
+   padding-left:20px;
+   padding-right:20px;
+}
+
+.img-Background > h1{
+    font-weight:300;
+    font-size:75px;
+}
+.img-Background > h3{
+    font-weight:300;
+
+}
+.bg-cor{
+    background-color: #eee;
+    margin-bottom: 30px;
+}
+.bg-cor:first-child{
+    margin-left:0px;
+}
+
+.container .row>* {
+    padding-right:0px;
+    padding-left: 0px;
+}
+.espaço{
+    margin-left: 20px;
+}
+.espaço-2{
+    margin-left: 15px;
+}
+.maximo{
+    max-width: 350px;
+}
+.imagem {
+    width:100%;
+    min-width: 616.25px;
+    max-height: 368.33px;
+}
+
+.altura-maxima img {
+    height: 267.13px; 
+    width: 100%;
+}
+.texto-maximo{
+    max-width: 660px;
+}
+.fundo{
+    color:black;
+    background-color:rgba(238,238,238,0.4)
+}
+
+.area{
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+    padding: 10px;
+}
+form input[type="name"],form input[type="email"]{
+    width: 100%;
+}
+
+@media screen and (max-width:1000px){
+    body{
+        font-size:12px;
+    }
+    .bg-cor{
+        margin-left: 0px;
+    }
+    .maximo{
+        max-width: 1280px;
+    }
+    .colunas-lado{
+        display:none;
+    }
+    .espaço{
+        margin-left: 0px;
+    }
+    .espaço-2{
+        margin-left: 0px;
+    }
+    form{
+        max-width: 600px;
+        
+    }
+}
+
+@media screen and (max-width:600px){
+    .ms-4{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .inputs{
+        width: 50%;
+    }
+    .d-1{
+        display: none;
+    }
+    input[type="name"],input[type="email"]{
+        width: 30%;
+    }
+}
